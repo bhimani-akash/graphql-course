@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useQuery, useLazyQuery, gql, useMutation } from "@apollo/client";
 
-//added create user mutation
-
 const QUERY_ALL_USERS = gql`
   query GetAllUsers {
     users {
